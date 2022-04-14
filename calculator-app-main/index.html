@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        width: 100vw;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="calculator">
+      <header class="calculator_head">
+        <h1 class="calculator_title">calc</h1>
+        <div class="calculator_theme">
+          <div class="calculator_theme_name">Theme</div>
+          <div class="calculator_theme_toggle">
+            <div class="calculator_theme_toggle_1" data-num="1"></div>
+            <div class="calculator_theme_toggle_1_num" data-num="1">1</div>
+            <div class="calculator_theme_toggle_2 hidden" data-num="2"></div>
+            <div class="calculator_theme_toggle_2_num" data-num="2">2</div>
+            <div class="calculator_theme_toggle_3 hidden" data-num="3"></div>
+            <div class="calculator_theme_toggle_3_num" data-num="3">3</div>
+          </div>
+        </div>
+      </header>
+      <div class="calculator_display">
+        <div class="calculator_display_number">0</div>
+      </div>
+      <div class="calculator_key">
+        <div class="calculator_key_7">7</div>
+        <div class="calculator_key_8">8</div>
+        <div class="calculator_key_9">9</div>
+        <div class="calculator_key_del">del</div>
+        <div class="calculator_key_4">4</div>
+        <div class="calculator_key_5">5</div>
+        <div class="calculator_key_6">6</div>
+        <div class="calculator_key_plus">+</div>
+        <div class="calculator_key_1">1</div>
+        <div class="calculator_key_2">2</div>
+        <div class="calculator_key_3">3</div>
+        <div class="calculator_key_minus">-</div>
+        <div class="calculator_key_dot">.</div>
+        <div class="calculator_key_0">0</div>
+        <div class="calculator_key_div">/</div>
+        <div class="calculator_key_pro">x</div>
+        <div class="calculator_key_reset">reset</div>
+        <div class="calculator_key_equals">=</div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
